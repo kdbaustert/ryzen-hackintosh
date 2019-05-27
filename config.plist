@@ -17,25 +17,37 @@
 				<key>FakeLPC</key>
 				<false/>
 				<key>FixAirport</key>
+				<true/>
+				<key>FixDarwin</key>
 				<false/>
 				<key>FixDisplay</key>
-				<false/>
+				<true/>
 				<key>FixHDA</key>
 				<false/>
 				<key>FixHPET</key>
+				<false/>
+				<key>FixIPIC</key>
 				<false/>
 				<key>FixLAN</key>
 				<false/>
 				<key>FixRTC</key>
 				<false/>
+				<key>FixSATA</key>
+				<false/>
+				<key>FixSBUS</key>
+				<false/>
 				<key>FixShutdown</key>
-				<true/>
+				<false/>
 				<key>FixUSB</key>
 				<false/>
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
 		</dict>
+		<key>FixHeaders</key>
+		<false/>
+		<key>FixMCFG</key>
+		<false/>
 		<key>HaltEnabler</key>
 		<true/>
 		<key>SSDT</key>
@@ -45,16 +57,16 @@
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
-				<false/>
+				<true/>
 				<key>PStates</key>
-				<false/>
+				<true/>
 			</dict>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v npci=0x2000</string>
+		<string>npci=0x2000 -wegoff</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
@@ -111,6 +123,52 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>Custom</key>
+		<dict>
+			<key>Entries</key>
+			<array>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>NoCaches</key>
+					<false/>
+					<key>Title</key>
+					<string>OS X</string>
+					<key>Type</key>
+					<string>OSX</string>
+					<key>Volume</key>
+					<string>43EED1B0-0EA5-32EB-95D2-5F75CF69BA0C</string>
+				</dict>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>Title</key>
+					<string>Windows 10</string>
+					<key>Type</key>
+					<string>Windows</string>
+					<key>Volume</key>
+					<string>710986DE-6A52-4ED1-9D7E-AB3C3FC1DD8B</string>
+				</dict>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>NoCaches</key>
+					<false/>
+					<key>Title</key>
+					<string>OS X Recovery</string>
+					<key>Type</key>
+					<string>OSXRecovery</string>
+					<key>Volume</key>
+					<string>C450009E-29A8-421B-B5E7-A2E472D86E32</string>
+				</dict>
+			</array>
+		</dict>
 		<key>EmbeddedThemeType</key>
 		<string>Dark</string>
 		<key>Hide</key>
@@ -119,7 +177,7 @@
 			<string>Legacy</string>
 		</array>
 		<key>KbdPrevLang</key>
-		<true/>
+		<false/>
 		<key>Language</key>
 		<string>en:0</string>
 		<key>Mouse</key>
@@ -130,9 +188,9 @@
 		<key>Scan</key>
 		<true/>
 		<key>TextOnly</key>
-		<true/>
+		<false/>
 		<key>Theme</key>
-		<string>embedded</string>
+		<string>Mojave</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -144,7 +202,7 @@
 			<false/>
 		</dict>
 		<key>RadeonDeInit</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
