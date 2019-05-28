@@ -1303,6 +1303,8 @@
 				<data>
 				AEFQUExFIFNTRAA=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
@@ -1357,6 +1359,40 @@
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
+		<key>Memory</key>
+		<dict>
+			<key>Modules</key>
+			<array>
+				<dict>
+					<key>Frequency</key>
+					<integer>2133</integer>
+					<key>Part</key>
+					<string>CMW32GX4M2C3200C16</string>
+					<key>Size</key>
+					<integer>16384</integer>
+					<key>Slot</key>
+					<integer>2</integer>
+					<key>Type</key>
+					<string>DDR4</string>
+					<key>Vendor</key>
+					<string>Corsair</string>
+				</dict>
+				<dict>
+					<key>Frequency</key>
+					<integer>2133</integer>
+					<key>Part</key>
+					<string>CMW32GX4M2C3200C16</string>
+					<key>Size</key>
+					<integer>16384</integer>
+					<key>Slot</key>
+					<integer>3</integer>
+					<key>Type</key>
+					<string>DDR4</string>
+					<key>Vendor</key>
+					<string>Corsair</string>
+				</dict>
+			</array>
+		</dict>
 		<key>PlatformFeature</key>
 		<string>0x01</string>
 		<key>ProductName</key>
