@@ -1,8 +1,6 @@
 # Ryzentosh
 
-My hackintosh backup files & hardware (Mojave 10.14.4)
-
-![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/about.png)
+My hackintosh backup files & hardware (Mojave 10.14.5)
 
 ![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/ryzentosh.jpg)
 
