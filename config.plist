@@ -135,12 +135,12 @@
 				<dict>
 					<key>Disabled</key>
 					<false/>
+					<key>FullTitle</key>
+					<string>OS X</string>
 					<key>Ignore</key>
 					<false/>
 					<key>NoCaches</key>
 					<false/>
-					<key>Title</key>
-					<string>OS X</string>
 					<key>Type</key>
 					<string>OSX</string>
 					<key>Volume</key>
@@ -149,10 +149,10 @@
 				<dict>
 					<key>Disabled</key>
 					<false/>
+					<key>FullTitle</key>
+					<string>Windows 10</string>
 					<key>Ignore</key>
 					<false/>
-					<key>Title</key>
-					<string>Windows 10</string>
 					<key>Type</key>
 					<string>Windows</string>
 					<key>Volume</key>
@@ -161,25 +161,24 @@
 				<dict>
 					<key>Disabled</key>
 					<false/>
+					<key>FullTitle</key>
+					<string>OS X Recovery (1)</string>
 					<key>Ignore</key>
 					<false/>
 					<key>NoCaches</key>
 					<false/>
-					<key>Title</key>
-					<string>OS X Recovery</string>
 					<key>Type</key>
 					<string>OSXRecovery</string>
 					<key>Volume</key>
-					<string>C450009E-29A8-421B-B5E7-A2E472D86E32</string>
+					<string>3DF627AA-2CD4-412A-B7F3-FC464B28EBDD</string>
 				</dict>
 			</array>
 		</dict>
 		<key>EmbeddedThemeType</key>
-		<string>Dark</string>
+		<string>Light</string>
 		<key>Hide</key>
 		<array>
-			<string>Preboot</string>
-			<string>Legacy</string>
+			<string>Untitled</string>
 		</array>
 		<key>KbdPrevLang</key>
 		<false/>
@@ -195,7 +194,7 @@
 		<key>TextOnly</key>
 		<false/>
 		<key>Theme</key>
-		<string>Mojave</string>
+		<string>Beauty</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>

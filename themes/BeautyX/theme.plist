@@ -68,8 +68,6 @@
 			<integer>180</integer>
 			<key>SelectionSmallWidth</key>
 			<integer>72</integer>
-			<key>TileXSpace</key>
-			<integer>0</integer>
 			<key>TileYSpace</key>
 			<integer>32</integer>
 			<key>Vertical</key>
