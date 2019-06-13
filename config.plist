@@ -43,6 +43,23 @@
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>change HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
+			</array>
 		</dict>
 		<key>FixHeaders</key>
 		<false/>
@@ -89,6 +106,14 @@
 	<dict>
 		<key>C6</key>
 		<false/>
+		<key>FrequencyMHz</key>
+		<integer>3195</integer>
+		<key>QPI</key>
+		<integer>0</integer>
+		<key>SavingMode</key>
+		<integer>255</integer>
+		<key>Type</key>
+		<string>0x0402</string>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -98,13 +123,10 @@
 		<dict>
 			<key>AFGLowPowerState</key>
 			<true/>
+			<key>Inject</key>
+			<integer>7</integer>
 			<key>ResetHDA</key>
 			<true/>
-		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>WIFI</key>
-			<string>0x43A014E4</string>
 		</dict>
 		<key>ForceHPET</key>
 		<false/>
@@ -119,9 +141,9 @@
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
-			<false/>
+			<true/>
 			<key>FixOwnership</key>
-			<false/>
+			<true/>
 			<key>Inject</key>
 			<true/>
 		</dict>
@@ -206,8 +228,18 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
+		<key>NVCAP</key>
+		<string>04000000000003000c0000000000000700000000</string>
 		<key>RadeonDeInit</key>
 		<true/>
+		<key>VRAM</key>
+		<integer>0</integer>
+		<key>VideoPorts</key>
+		<integer>0</integer>
+		<key>display-cfg</key>
+		<string>03010300ffff0001</string>
+		<key>ig-platform-id</key>
+		<string>0x0000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -1312,12 +1344,86 @@
 				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB port limit patch #1 10.14.x modify by DalianSky(credit ydeng)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g/sPDw==
+				</data>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>
+				g/s/Dw==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB port limit patch #2 10.14.x modify by DalianSky(credit PMHeart)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g+MP0w==
+				</data>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				g+M/0w==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB port limit patch #2 10.14.x modify by DalianSky(credit PMHeart)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g/sPDw==
+				</data>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>
+				g/s/Dw==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB port limit patch #2 10.14.x modify by DalianSky(credit PMHeart)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g/8PDw==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				g/8/Dw==
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
 		<key>BooterConfig</key>
-		<string>0x2A</string>
+		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
@@ -1409,7 +1515,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<string>Detect</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
