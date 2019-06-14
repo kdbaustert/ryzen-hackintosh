@@ -1353,6 +1353,8 @@
 				<data>
 				g/sPDw==
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>MatchOS</key>
 				<string>10.14.x</string>
 				<key>Name</key>
@@ -1371,6 +1373,8 @@
 				<data>
 				g+MP0w==
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>MatchOS</key>
 				<string>10.14.x</string>
 				<key>Name</key>
@@ -1389,6 +1393,8 @@
 				<data>
 				g/sPDw==
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>MatchOS</key>
 				<string>10.14.x</string>
 				<key>Name</key>
@@ -1477,6 +1483,20 @@
 					<key>Size</key>
 					<integer>16384</integer>
 					<key>Slot</key>
+					<integer>1</integer>
+					<key>Type</key>
+					<string>DDR4</string>
+					<key>Vendor</key>
+					<string>Corsair</string>
+				</dict>
+				<dict>
+					<key>Frequency</key>
+					<integer>2133</integer>
+					<key>Part</key>
+					<string>CMW32GX4M2C3200C16</string>
+					<key>Size</key>
+					<integer>16384</integer>
+					<key>Slot</key>
 					<integer>2</integer>
 					<key>Type</key>
 					<string>DDR4</string>
@@ -1492,6 +1512,20 @@
 					<integer>16384</integer>
 					<key>Slot</key>
 					<integer>3</integer>
+					<key>Type</key>
+					<string>DDR4</string>
+					<key>Vendor</key>
+					<string>Corsair</string>
+				</dict>
+				<dict>
+					<key>Frequency</key>
+					<integer>2133</integer>
+					<key>Part</key>
+					<string>CMW32GX4M2C3200C16</string>
+					<key>Size</key>
+					<integer>16384</integer>
+					<key>Slot</key>
+					<integer>4</integer>
 					<key>Type</key>
 					<string>DDR4</string>
 					<key>Vendor</key>
