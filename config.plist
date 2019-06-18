@@ -122,9 +122,9 @@
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
-			<true/>
+			<false/>
 			<key>Inject</key>
-			<integer>7</integer>
+			<string>Detect</string>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -143,6 +143,8 @@
 			<key>AddClockID</key>
 			<true/>
 			<key>FixOwnership</key>
+			<true/>
+			<key>HighCurrent</key>
 			<true/>
 			<key>Inject</key>
 			<true/>
@@ -1536,7 +1538,7 @@
 		<key>PlatformFeature</key>
 		<string>0x01</string>
 		<key>ProductName</key>
-		<string>iMac14,4</string>
+		<string>iMac14,2</string>
 		<key>SerialNumber</key>
 		<string>D25QLLYHF8JC</string>
 		<key>SmUUID</key>
@@ -1549,7 +1551,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
