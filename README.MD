@@ -13,7 +13,9 @@ My hackintosh backup files & hardware (Mojave 10.14.5)
 | Graphics Card | Sapphire Radeon Nitro+ RX 580 |
 | Bluetooth     | ASUS USB-BT400 |
 | Liquid Cooler | Corsair h100i Pro |
+|Fenvi FV-T919  | Wifi / Bluetooth |
 
-### To do:
-
-Upgrade Wifi/Bluetooth card (Fix handoff)
+- [x] Messaging
+- [x] iCloud
+- [x] Handoff
+- [x] AirDrop
