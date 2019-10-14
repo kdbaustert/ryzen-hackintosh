@@ -4,6 +4,8 @@ My hackintosh backup files & hardware (Catalina 10.15)
 
 ![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/ryzentosh.jpg)
 
+![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/about.png)
+
 | Component        | Model                                  |
 | ---------------- | -------------------------------------- |
 | CPU              | AMD Ryzen 7 2700                       |
