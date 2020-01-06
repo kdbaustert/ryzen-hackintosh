@@ -183,7 +183,7 @@
 				<key>Mask</key>
 				<data>/////////////////////wAAAAAA//8=</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>18.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -295,7 +295,7 @@
 				<key>Mask</key>
 				<data>//8AAAD///8A////</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>18.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -813,7 +813,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>algrey - tsc_init - grab DID and FID from MSR</string>
+				<string>algrey - tsc_init - grab DID and VID from MSR</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -911,11 +911,67 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>18.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
 				<data>JfAAAADrI5A=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>algrey - lapic_interrupt - skip checks and prevent panic - 10.15</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>gz0AAAAAAHQO</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>//8AAAD/////</data>
+				<key>MaxKernel</key>
+				<string>19.99.99</string>
+				<key>MinKernel</key>
+				<string>19.0.0</string>
+				<key>Replace</key>
+				<data>6zkPH4AAAAAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string>_lapic_interrupt</string>
+				<key>Comment</key>
+				<string>algrey - lapic_interrupt - skip checks and prevent panic</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>gz0AAAAAAHQK</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>250</integer>
+				<key>Mask</key>
+				<data>//8AAAD/////</data>
+				<key>MaxKernel</key>
+				<string>18.99.99</string>
+				<key>MinKernel</key>
+				<string>17.0.0</string>
+				<key>Replace</key>
+				<data>60gPH4AAAAAA</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
