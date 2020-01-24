@@ -1074,6 +1074,20 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Ethernet</string>
+				<key>MatchKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AppleIGB</string>
+				<key>BundlePath</key>
+				<string>AppleIGB.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>AppleMCEReporterDisabler</string>
 				<key>MatchKernel</key>
 				<string></string>
@@ -1113,6 +1127,34 @@
 				<string>Contents/MacOS/AppleIGB</string>
 				<key>BundlePath</key>
 				<string>AppleIGB.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IntelMausi</string>
+				<key>MatchKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelMausi</string>
+				<key>BundlePath</key>
+				<string>IntelMausi.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IntelMausiEthernet</string>
+				<key>MatchKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelMausiEthernet</string>
+				<key>BundlePath</key>
+				<string>IntelMausiEthernet.kext</string>
 			</dict>
 		</array>
 		<key>Block</key>
