@@ -2,7 +2,7 @@
 
 My hackintosh backup files & hardware (Catalina 10.15)
 
-![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/ryzentosh.jpg)
+![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/IMG_5963.HEIC)
 
 ![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/about.png)
 
@@ -13,7 +13,7 @@ My hackintosh backup files & hardware (Catalina 10.15)
 | OS Disk (NVMe)   | 2x WD 500GB NVMe M.2 SSD               |
 | RAM              | 4x 16gb Corsair Vengeance Pro 64GB Ram |
 | GPU              | Sapphire Radeon Nitro+ RX 580          |
-| Bluetooth        | BCM94360CD Native Airport WiFi BT 4.0                         |
+| Bluetooth        | BCM94360CD Native Airport WiFi BT 4.0  |
 | Liquid Cooler    | Corsair h100i Pro                      |
 | WiFi & Bluetooth | Fenvi FV-T919                          |
 
