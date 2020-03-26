@@ -2,7 +2,7 @@
 
 My hackintosh backup files & hardware (Catalina 10.15)
 
-![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/IMG_5963.HEIC)
+![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/IMG_5963.png)
 
 ![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/about.png)
 
