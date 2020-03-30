@@ -19,14 +19,14 @@ My hackintosh backup files & hardware (Catalina 10.15)
 
 ## Patches & Kexts
 
-- [[Patch] AMD_Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
+- [[Patchs] AMD_Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 - [[Kext] VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 - [[Kext] Lilu](https://github.com/acidanthera/Lilu)
 - [[Kext] WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 - [[Kext] AppleALC](https://github.com/acidanthera/AppleALC)
-- [[Kext] AppleMCEReporterDisabler    
-- [[Kext] NVMeFix   
-- [[Kext] SmallTreeIntel82576   
+- [Kext] AppleMCEReporterDisabler    
+- [Kext] NVMeFix   
+- [Kext] SmallTreeIntel82576   
 
 ## Working
 
