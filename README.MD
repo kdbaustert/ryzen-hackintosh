@@ -1,10 +1,7 @@
-# Ryzentosh
+# AMD Ryzen Hackintosh
 
-My hackintosh backup files & hardware (Catalina 10.15)
-
-![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/IMG_5963.png)
-
-![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/about.png)
+**macOS version**: 10.15.4 (19E266)  
+**OpenCore version**: 0.5.6 
 
 | Component        | Model                                  |
 | ---------------- | -------------------------------------- |
@@ -17,16 +14,19 @@ My hackintosh backup files & hardware (Catalina 10.15)
 | Liquid Cooler    | Corsair h100i Pro                      |
 | WiFi & Bluetooth | Fenvi FV-T919                          |
 
-## Patches & Kexts
+## Patches, Drivers & Kexts
 
 - [[Patchs] AMD_Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
+- [[Driver] FwRuntimeServices](https://github.com/acidanthera/OpenCorePkg)
+- [[Driver] ApfsDriverLoader](https://github.com/acidanthera/AppleSupportPkg)
+- [[Driver] HfsPlus](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
 - [[Kext] VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 - [[Kext] Lilu](https://github.com/acidanthera/Lilu)
 - [[Kext] WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 - [[Kext] AppleALC](https://github.com/acidanthera/AppleALC)
-- [Kext] AppleMCEReporterDisabler    
-- [Kext] NVMeFix   
-- [Kext] SmallTreeIntel82576   
+- [[Kext] AppleMCEReporterDisabler](https://github.com/acidanthera/bugtracker/issues/424)
+- [[Kext] NVMeFix](https://github.com/acidanthera/NVMeFix)
+- [[Kext] SmallTreeIntel82576](https://github.com/Manouchehri/SmallTreeIntel82576/tree/master/SmallTreeIntel82576) 
 
 ## Working
 
@@ -37,3 +37,5 @@ My hackintosh backup files & hardware (Catalina 10.15)
 - [x] Bluetooth
 - [x] Wifi
 - [x] Ethernet
+
+![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/IMG_5963.png)
