@@ -3,6 +3,7 @@
 **macOS version**: 10.15.4 (19E266)  
 **OpenCore version**: 0.5.6 
 
+## Specification
 | Component        | Model                                  |
 | ---------------- | -------------------------------------- |
 | CPU              | AMD Ryzen 7 2700                       |
