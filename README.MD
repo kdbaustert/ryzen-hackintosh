@@ -24,11 +24,9 @@ My hackintosh backup files & hardware (Catalina 10.15)
 - [[Kext] Lilu](https://github.com/acidanthera/Lilu)
 - [[Kext] WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 - [[Kext] AppleALC](https://github.com/acidanthera/AppleALC)
-- [[Kext] BT4LEContinuityFixup](https://github.com/acidanthera/BT4LEContiunityFixup)
-- [[Kext] AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup)
-- [[Kext] HibernationFixup](https://github.com/acidanthera/HibernationFixup)
-- [[Kext] RealtekRTL8111](https://bitbucket.org/RehabMan/os-x-realtek-network/downloads/)
-- [[Kext] NullCPUPowerManagement](https://www.tonymacx86.com/resources/nullcpupowermanagement.268/)
+- [[Kext] AppleMCEReporterDisabler    
+- [[Kext] NVMeFix   
+- [[Kext] SmallTreeIntel82576   
 
 ## Working
 
