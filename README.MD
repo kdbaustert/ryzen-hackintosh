@@ -1,6 +1,6 @@
 # AMD Ryzen Hackintosh
 
-**macOS version**: 10.15.5 (19F96)  
+**macOS version**: 10.15.5  
 **OpenCore version**: 0.5.8 
 
 ## Specification
@@ -17,17 +17,15 @@
 
 ## Patches, Drivers & Kexts
 
-- [[Patchs] AMD_Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
-- [[Driver] FwRuntimeServices](https://github.com/acidanthera/OpenCorePkg)
-- [[Driver] ApfsDriverLoader](https://github.com/acidanthera/AppleSupportPkg)
-- [[Driver] HfsPlus](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
-- [[Kext] VirtualSMC](https://github.com/acidanthera/VirtualSMC)
-- [[Kext] Lilu](https://github.com/acidanthera/Lilu)
-- [[Kext] WhateverGreen](https://github.com/acidanthera/WhateverGreen)
-- [[Kext] AppleALC](https://github.com/acidanthera/AppleALC)
-- [[Kext] AppleMCEReporterDisabler](https://github.com/acidanthera/bugtracker/issues/424)
-- [[Kext] NVMeFix](https://github.com/acidanthera/NVMeFix)
-- [[Kext] SmallTreeIntel82576](https://github.com/Manouchehri/SmallTreeIntel82576/tree/master/SmallTreeIntel82576) 
+- [Patchs] AMD_Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
+- [Driver] OpenRuntime
+- [Driver] OpenCanopy
+- [Driver] HfsPlus
+- [Kext] VirtualSMC
+- [Kext] Lilu]
+- [Kext] WhateverGreen]
+- [Kext] AppleALC]
+- [Kext] SmallTreeIntel82576
 
 ## Working
 
