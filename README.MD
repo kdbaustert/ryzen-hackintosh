@@ -1,7 +1,7 @@
 # AMD Ryzen Hackintosh
 
 **macOS version**: 10.15.5  
-**OpenCore version**: 0.5.8 
+**OpenCore version**: 0.5.9 
 
 ## Specification
 | Component        | Model                                  |
