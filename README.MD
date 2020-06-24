@@ -3,7 +3,7 @@
 **macOS version**: 10.15.5  
 **OpenCore version**: 0.5.8 
 
-![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/about-mac-screenshot)
+![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/about-mac-screenshot.png)
 
 ## Specification
 | Component        | Model                                  |
