@@ -23,7 +23,6 @@
 - [Driver] OpenRuntime
 - [Driver] OpenCanopy
 - [Driver] HfsPlus
-- [Kext] VirtualSMC
 - [Kext] Lilu]
 - [Kext] WhateverGreen]
 - [Kext] AppleALC]
