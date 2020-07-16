@@ -28,6 +28,10 @@
 - [Kext] WhateverGreen]
 - [Kext] AppleALC]
 - [Kext] SmallTreeIntel82576
+- [Kext] RadeonBoost
+- [Kext] AMDRyzenCPUPowerManagement
+- [Kext] AppleMCEReporterDisabler
+
 
 ## Working
 
