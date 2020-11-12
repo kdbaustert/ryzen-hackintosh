@@ -9,7 +9,7 @@
 | Component        | Model                                  |
 | ---------------- | -------------------------------------- |
 | CPU              | AMD Ryzen 7 2700                       |
-| MotherBoard      | ASUS ROG Strix X470-F                  |
+| MotherBoard      | ASUS ROG Strix X470-F BIOS V5603       |
 | OS Disk (NVMe)   | 2x WD 500GB NVMe M.2 SSD               |
 | RAM              | 4x 16gb Corsair Vengeance Pro 64GB Ram |
 | GPU              | Sapphire Radeon Nitro+ RX 580          |
