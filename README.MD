@@ -3,8 +3,6 @@
 **macOS version**: 11.0.1 (20B29)  
 **OpenCore version**: 0.6.3 
 
-![Screenshot][image-1]
-
 ## Specification
 | Component        | Model                                  |
 | ---------------- | -------------------------------------- |
@@ -96,12 +94,4 @@ done
 - [x] Wifi
 - [x] Ethernet
 
-![Screenshot][image-2]
-
-
-
-[17]:	https://apple.com
-
-
-[image-1]:	https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/about-mac.png
-[image-2]:	https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/IMG_5963.png
+![Screenshot](/screenshot.png?raw=true)
