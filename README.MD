@@ -59,7 +59,6 @@ done
  - [[Resources] Picker GUI](https://github.com/acidanthera/OcBinaryData/tree/master/Resources)
  - [[Patch] AMD_Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
  - [[SSDT] EC-USBX-DESKTOP](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml)
- - [[SSDT] SLEEP-PTXH](./OC/ACPI/SSDT-SLEEP-PTXH.aml)
  - [[Driver] OpenRuntime](https://github.com/acidanthera/OpenCorePkg)
  - [[Driver] OpenCanopy](https://github.com/acidanthera/OpenCorePkg)
  - [[Driver] HFSPlus](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
@@ -69,7 +68,6 @@ done
  - [[Kext] AppleALC](https://github.com/acidanthera/AppleALC)
  - [[Kext] RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
  - [[Kext] AMDRyzenCPUPowerManagement](https://github.com/trulyspinach/SMCAMDProcessor)
- - [[Kext] SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor)
  - [[Kext] AppleMCEReporterDisabler](https://github.com/AMD-OSX/AMD_Vanilla/blob/experimental-opencore/Extra/AppleMCEReporterDisabler.kext.zip)   
 
 #### People
