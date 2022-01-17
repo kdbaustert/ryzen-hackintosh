@@ -19,7 +19,7 @@
  - Mojave (10.14.x)
  - Catalina (10.15.x)
  - Big Sur (10.16/11.0)
- - Monterey (12.1)
+ - Monterey (12.x)
 
 **You CAN NOT use SMBIOS from this repository, it MUST be unique for every macOS installation**
 
